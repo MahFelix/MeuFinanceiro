@@ -64,7 +64,7 @@ const Dashboard = () => {
           color={balance >= 0 ? "#4CAF50" : "#F44336"}
         />
       </CardContainer>
-
+    
       {/* Card de Saldo Atual considerando o salário */}
       <SummaryCard
         title="Saldo Atual"
@@ -96,7 +96,7 @@ const Container = styled.div`
   padding: 2rem;
 
   @media (max-width: 768px) {
-    padding: 1rem;
+    padding: 2rem;
   }
 `;
 
@@ -153,6 +153,7 @@ const CardContainer = styled.div`
   display: flex;
   gap: 1rem;
   margin-top: 2rem;
+  margin-bottom: 1rem;
 
   @media (max-width: 768px) {
     flex-direction: column;
