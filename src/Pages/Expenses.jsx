@@ -190,7 +190,7 @@ const RemoveButton = styled.button`
   background: #ff4d4d;
   color: white;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 8px;
   cursor: pointer;
   font-size: 1rem;
